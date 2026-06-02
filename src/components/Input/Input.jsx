@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Input.css';
 
 export function Input({placeholder, defaultValue, onChange, disabled, error, leftIcon, rightIcon}) {
