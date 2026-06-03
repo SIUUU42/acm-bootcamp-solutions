@@ -1,1 +1,21 @@
-/* Add Card styles here */
+/* Card stylesheet */
+.card {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-header {
+  padding: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-footer {
+  padding: 20px;
+  border-top: 1px solid #ccc;
+}
