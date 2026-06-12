@@ -1,1 +1,28 @@
-/* Add Tabs styles here */
+/*Tabs layout*/
+.tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-list {
+  display: flex;
+  border-bottom: 2px solid #ccc;
+}
+
+.tab-list button {
+  padding: 8px 16px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.tab-active {
+  border-bottom: 2px solid blue;
+  font-weight: bold;
+  color: blue;
+}
+
+.tab-panel {
+  padding: 16px;
+}
