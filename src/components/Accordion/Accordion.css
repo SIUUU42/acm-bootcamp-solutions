@@ -1,1 +1,28 @@
-/* Add Accordion styles here */
+/*accordion stylesheet*/
+.accordion {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+.accordion-item button {
+  width: 100%;
+  text-align: left;
+  padding: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.accordion-content {
+  padding: 16px;
+}
