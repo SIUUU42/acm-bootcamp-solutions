@@ -1,1 +1,29 @@
 /* Add Carousel styles here */
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+}
+
+.carousel img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.carousel-controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.carousel-controls button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.carousel-controls button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
