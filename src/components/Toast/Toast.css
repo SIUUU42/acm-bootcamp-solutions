@@ -1,1 +1,31 @@
-/* Add Toast styles here */
+.toast {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-radius: 8px;
+  min-width: 250px;
+  font-size: 14px;
+}
+
+.toast-success {
+  background-color: #d4eddc;
+  color: #155724;
+}
+
+.toast-error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.toast-info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.toast button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
